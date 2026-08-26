@@ -1,0 +1,17 @@
+name: chest_xray
+channels:
+  - pytorch
+  - nvidia   
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - notebook
+  - transformers
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8 
+  
